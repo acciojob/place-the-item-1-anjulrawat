@@ -1,26 +1,12 @@
-
-/* Your CSS Code here. */
-.flex-container{
+.holder{
     display: flex;
-    background-color: #d999;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
+
 }
-.flex-items{
-    flex-grow: 1;
-    background-color: #f1f1f1;
-    color: #000;
-    width: 100px;
+.holder div{
+    background-color: blue;
     margin: 10px;
+    width: 100px;
 }
-h1{
-    font: italic;
-    font-weight: 400;
-    margin: 10px 0;
-}
-
-    
-    
-
-    
